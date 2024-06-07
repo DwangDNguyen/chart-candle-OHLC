@@ -1,0 +1,68 @@
+#root {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.btn-submit {
+    background-color: #111827;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input {
+    max-width: 300px;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.date-option {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.date-input {
+    position: relative;
+}
+
+.date-option input {
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 12px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.date-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #e2e2e2;
+}
